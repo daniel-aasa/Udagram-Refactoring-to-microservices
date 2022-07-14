@@ -15,17 +15,20 @@ To help review your infrastructure, please include the following screenshots in 
 * To verify Kubernetes pods are deployed properly
 ```bash
 kubectl get pods
-```![Pods running perfectly](https://user-images.githubusercontent.com/108951446/178914865-3deb9b96-cd70-4193-965a-ec056c336283.png)
+```
+![Pods running perfectly](https://user-images.githubusercontent.com/108951446/178914865-3deb9b96-cd70-4193-965a-ec056c336283.png)
 
 * To verify Kubernetes services are properly set up
 ```bash
 kubectl describe services
-```![describe service](https://user-images.githubusercontent.com/108951446/178914946-d023e7d6-1257-49d7-9e07-fecc0f741b57.png)
+```
+![describe service](https://user-images.githubusercontent.com/108951446/178914946-d023e7d6-1257-49d7-9e07-fecc0f741b57.png)
 
 * To verify that you have horizontal scaling set against CPU usage
 ```bash
 kubectl describe hpa
-```![hpa](https://user-images.githubusercontent.com/108951446/178915164-d74153eb-a908-4475-88b6-cf882020326c.png)
+```
+![hpa](https://user-images.githubusercontent.com/108951446/178915164-d74153eb-a908-4475-88b6-cf882020326c.png)
 
 * To verify that you have set up logging with a backend application
 ```bash
