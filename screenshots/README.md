@@ -30,15 +30,17 @@ kubectl describe services
 
 * To verify that you have horizontal scaling set against CPU usage
 ```bash
-kubectl describe hpa
+kubectl get hpa
 ```
-![hpa](https://user-images.githubusercontent.com/108951446/178915164-d74153eb-a908-4475-88b6-cf882020326c.png)
+![ge hpa](https://user-images.githubusercontent.com/108951446/179120830-9f7ea66a-c4af-430a-bd03-9e53563a10b8.png)
+
 
 * To verify that you have set up logging with a backend application
 ```bash
 kubectl logs {pod_name}
 ```
-![logs](https://user-images.githubusercontent.com/108951446/178917077-6a4d94d4-945b-4023-bf09-0c1c0e5b9982.png)
+![logs](https://user-images.githubusercontent.com/108951446/179120899-ce1101db-4309-4c87-ae86-af6a974dbd1a.png)
+
 
 
 
